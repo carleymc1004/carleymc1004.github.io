@@ -10,12 +10,12 @@ body {
   margin: 0;
 }
 body {
-  background-color: #856a3e;
+  background-color: #755b68;
 }
 div {
-  background-color: #856a3e;
+  background-color: #dbadc3;
   padding: 8px;
-  border: 1px solid #4CAF50;
+  border: 1px solid #87375d;
 }
 .center {
   margin: auto;
@@ -31,7 +31,7 @@ h1 {
 p {
   font-family: verdana;
   font-size: 20px;
-   color: #ba842d;
+   color: #a60f5a;
     text-align: center;
 }
 ul {
