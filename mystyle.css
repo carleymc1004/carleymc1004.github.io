@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+h1{
+background-color:#000;
+color:#fff;
+font-size:3em;
+}
+
 <html>
 <head>
 <style>
@@ -31,9 +36,3 @@ li a {
 
 </body>
 </html>
-
-h1{
-background-color:#000;
-color:#fff;
-font-size:3em;
-}
