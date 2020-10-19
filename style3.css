@@ -14,10 +14,15 @@ body {
 }
 div {
   background-color: #856a3e;
-  padding: 70px;
+  padding: 8px;
   border: 1px solid #4CAF50;
 }
-
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
 h1 {
   color: #ba842d;
   text-align: center;
