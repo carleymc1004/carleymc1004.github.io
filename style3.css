@@ -2,10 +2,6 @@
 <head>
 <style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-img {
-  max-width: 25%;
-  height: auto;
-}
 body {
   margin: 0;
 }
@@ -20,10 +16,19 @@ h1 {
   color: #ba842d;
   text-align: center;
 }
+div {
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+</style>
+</head>
+<body>
+
+</body>
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  font-family: #verdana;
+  font-size: 12px;
    color: #ba842d;
     text-align: center;
 }
