@@ -11,20 +11,21 @@ body {
   margin: 0;
 }
 body {
-  background-color: #768e94;
+  background-color: #0d3e4a;
 }
 div {
-  background-color: #768e94;
+  background-color: #0d3e4a;
 }
 
 h1 {
-  color: white;
+  color: 9dbbc2;
   text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
+   color: 9dbbc2;
     text-align: center;
 }
 ul {
@@ -32,12 +33,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #768e94;
+  background-color: #707070;
 }
 
 li {
   float: left;
-  border-right:1px solid #768e94;
+  border-right:1px solid #7707070;
 }
 
 li:last-child {
@@ -53,11 +54,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #768e94;
+  background-color: #d4d4d4;
 }
 
 .active {
-  background-color: #768e94;
+  background-color: #575757;
 }
 </style>
 </head>
