@@ -6,6 +6,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
 }
 body {
   margin: 0;
@@ -59,15 +62,6 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #575757;
-}
-.resize {
-    width: 400px;
-    height: auto;
-}
-
-.resize {
-    width: 300px;
-    height: auto;
 }
 
 <img class="resize" src="bandimage.jpg"/>
