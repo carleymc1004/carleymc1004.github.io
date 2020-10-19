@@ -1,25 +1,31 @@
 <html>
 <head>
 <style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+img {
+  max-width: 25%;
   height: auto;
 }
+body {
+  margin: 0;
+}
+body {
+  background-color: #856a3e;
+}
+div {
+  background-color: #856a3e;
+}
 
-div.desc {
-  padding: 15px;
+h1 {
+  color: #ba842d;
   text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+   color: #ba842d;
+    text-align: center;
 }
 ul {
   list-style-type: none;
@@ -53,3 +59,7 @@ li a:hover:not(.active) {
 .active {
   background-color: #575757;
 }
+
+</style>
+</head>
+</html>
