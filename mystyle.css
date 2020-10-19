@@ -60,6 +60,17 @@ li a:hover:not(.active) {
 .active {
   background-color: #575757;
 }
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+<img class="resize" src="bandimage.jpg"/>
 </style>
 </head>
 </html>
