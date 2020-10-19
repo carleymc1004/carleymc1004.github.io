@@ -15,12 +15,12 @@ body {
 div {
   background-color: #dbadc3;
   padding: 8px;
-  border: 5px solid #f2a5ca;
+  border: 1px solid #f2a5ca;
 }
 .center {
   margin: auto;
   width: 60%;
-  border: 5px solid #f2a5ca;
+  border: 3px solid #f2a5ca;
   padding: 10px;
 }
 h1 {
