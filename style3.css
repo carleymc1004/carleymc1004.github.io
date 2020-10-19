@@ -1,17 +1,32 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
-div {
-  padding: 70px;
-  border: 1px solid #4CAF50;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+img {
+  max-width: 25%;
+  height: auto;
 }
-</style>
-</head>
-<body>
+body {
+  margin: 0;
+}
+body {
+  background-color: #856a3e;
+}
+div {
+  background-color: #856a3e;
+}
 
-<div>This element has a padding of 70px.</div>
+h1 {
+  color: #ba842d;
+  text-align: center;
+}
 
+p {
+  font-family: verdana;
+  font-size: 20px;
+   color: #ba842d;
+    text-align: center;
+}
 ul {
   list-style-type: none;
   margin: 0;
