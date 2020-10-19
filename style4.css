@@ -2,63 +2,57 @@
 <head>
 <style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-img {
-  max-width: 25%;
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
   height: auto;
 }
-body {
-  margin: 0;
-}
-body {
-  background-color: #856a3e;
-}
-div {
-  background-color: #856a3e;
-}
 
-h1 {
-  color: #ba842d;
+div.desc {
+  padding: 15px;
   text-align: center;
 }
+</style>
+</head>
+<body>
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-   color: #ba842d;
-    text-align: center;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #707070;
-}
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
-li {
-  float: left;
-  border-right:1px solid #7707070;
-}
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
-li:last-child {
-  border-right: none;
-}
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
-li a {
-  display: block;
-  color: #9e9e9e;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #d4d4d4;
-}
-
-.active {
-  background-color: #575757;
-}
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
 </style>
 </head>
