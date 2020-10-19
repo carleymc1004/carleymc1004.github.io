@@ -18,14 +18,14 @@ div {
 }
 
 h1 {
-  color: 9dbbc2;
+  color: #9dbbc2;
   text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
-   color: 9dbbc2;
+   color: #9dbbc2;
     text-align: center;
 }
 ul {
@@ -47,7 +47,7 @@ li:last-child {
 
 li a {
   display: block;
-  color: 9e9e9e;
+  color: #9e9e9e;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
